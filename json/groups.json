@@ -1,0 +1,364 @@
+
+{ 
+    "species_dict":{
+    "es00": {
+        "common_name": "Orelha de macaco",
+        "scientific_name": "Enterolobium schomburqki"
+    },
+    "ep01": {
+        "common_name": "Açaí solteiro",
+        "scientific_name": "Euterpe precatoria Mart."
+    },
+    "am02": {
+        "common_name": "Árvore morta",
+        "scientific_name": null
+    },
+    "be03": {
+        "common_name": "Castanheira",
+        "scientific_name": "Bertholletia excelsa Bonpl."
+    },
+    "se04": {
+        "common_name": "Paxiúba",
+        "scientific_name": "Socratea exorrhiza (Mart.) H. Wendl."
+    },
+    "cu05": {
+        "common_name": "Caucho",
+        "scientific_name": "Castilla Ulei Warb."
+    },
+    "co06": {
+        "common_name": "Cedro",
+        "scientific_name": "Cedrela odorata L."
+    },
+    "cl07": {
+        "common_name": "Clareira",
+        "scientific_name": null
+    },
+    "sa08": {
+        "common_name": "Pinho cuiabano",
+        "scientific_name": "Schizolobium amazonicum Ducke"
+    },
+    "mf09": {
+        "common_name": "Burití",
+        "scientific_name": "Mauritia flexuosa L.f."
+    },
+    "ab10": {
+        "common_name": "Jací",
+        "scientific_name": "Attalea butyracea (Mutis ex Lf) Wess.Boer"
+    },
+    "bj11": {
+        "common_name": "Bajão",
+        "scientific_name": "Parkia paraensis Ducke"
+    },
+    "ap12": {
+        "common_name": "Ouricuri",
+        "scientific_name": "Attalea phalerata Mart. ex Spreng."
+    },
+    "au13": {
+        "common_name": "Murumuru",
+        "scientific_name": "Astrocaryum ulei Burret"
+    },
+    "aa14": {
+        "common_name": "Tucumã",
+        "scientific_name": "Astrocaryum aculeatum G.Mey."
+    },
+    "cp15": {
+        "common_name": "Samaúma",
+        "scientific_name": "Ceiba pentandra (L.) Gaertn."
+    },
+    "am16": {
+        "common_name": "Inajá",
+        "scientific_name": "Attalea maripa (Aubl.) Mart."
+    },
+    "fe17": {
+        "common_name": "Fenologia",
+        "scientific_name": null
+    },
+    "cs18": {
+        "common_name": "Cecrópia",
+        "scientific_name": null
+    },
+    "ob19": {
+        "common_name": "Patauá",
+        "scientific_name": "Oenocarpus bataua Mart."
+    },
+    "ex20": {
+        "common_name": "Exploração",
+        "scientific_name": "Madeira serrada"
+    },
+    "cs20": {
+        "common_name": "Samauma preta",
+        "scientific_name": "Ceiba samauma (Mart. & Zucc.) K.Schum."
+    },
+    "do22": {
+        "common_name": "Cumaru ferro",
+        "scientific_name": "Dipteryx odorata (Aubl.) Willd."
+    },
+    "tr23": {
+        "common_name": "Toras",
+        "scientific_name": null
+    },
+    "ba24": {
+        "common_name": "Manite",
+        "scientific_name": "Brosimum alicastrum Sw."
+    },
+    "mv25": {
+        "common_name": "Abiu rosa",
+        "scientific_name": "Micropholis venulosa (Mart. & Eichler ex Miq.) Pierre"
+    },
+    "fs26": {
+        "common_name": "Ficus",
+        "scientific_name": "Ficus maxima Mill."
+    },
+    "hc27": {
+        "common_name": "Assacú",
+        "scientific_name": "Hura crepitans L."
+    },
+    "mh29": {
+        "common_name": "Maçaranduba",
+        "scientific_name": "Manilkara huberi (Ducke) Standl."
+    },
+    "cm29": {
+        "common_name": "Copaíba",
+        "scientific_name": "Copaifera multijuga Hayne"
+    },
+    "al30": {
+        "common_name": "Garapeira",
+        "scientific_name": "Apuleia leiocarpa (Vogel) JFMacbr."
+    },
+    "sa31": {
+        "common_name": "Angico",
+        "scientific_name": "Parkia nitida Miq."
+    },
+    "ec33": {
+        "common_name": "Castanharana vermelha",
+        "scientific_name": "Eschweilera coriacea (DC.) SAMori"
+    },
+    "at34": {
+        "common_name": "Cocão",
+        "scientific_name": "Attalea tessmannii Burret"
+    },
+    "ep35": {
+        "common_name": "Açaí solteiro produtivo",
+        "scientific_name": null
+    },
+    "cs36": {
+        "common_name": "Samaúma barriguda",
+        "scientific_name": "Ceiba speciosa (A.St.-Hil.) Ravenna"
+    },
+    "sg37": {
+        "common_name": "Baginha",
+        "scientific_name": "Stryphnodendron guianense (Aubl.) Benth."
+    },
+    "fm38": {
+        "common_name": "Caxinguba",
+        "scientific_name": "Ficus maxima Mill."
+    },
+    "ap39": {
+        "common_name": "Espinheiro preto",
+        "scientific_name": "Acacia polyphylla DC."
+    },
+    "cm40": {
+        "common_name": "Tauari",
+        "scientific_name": "Couratari macrosperma A.C.Sm."
+    },
+    "hc41": {
+        "common_name": "Jatobá",
+        "scientific_name": "Hymenaea courbaril L."
+    },
+    "sp42": {
+        "common_name": "Taxi-branco RO",
+        "scientific_name": "Sclerolobium paniculatum Vogel"
+    },
+    "de43": {
+        "common_name": "Faveira-ferro RO",
+        "scientific_name": "Dinizia excelsa Ducke"
+    },
+    "ss44": {
+        "common_name": "Taxi-vermelho AC",
+        "scientific_name": null
+    },
+    "hp45": {
+        "common_name": "Jutai",
+        "scientific_name": "Hymenaea oblongifolia"
+    },
+    "op46": {
+        "common_name": "Algoodoeiro",
+        "scientific_name": null
+    },
+    "hy47": {
+        "common_name": "Angelin",
+        "scientific_name": null
+    },
+    "as48": {
+        "common_name": "Babaçu",
+        "scientific_name": "Attalea speciosa"
+    },
+    "oc49": {
+        "common_name": "Bajão RO",
+        "scientific_name": "Ormosia coutinho"
+    },
+    "pp50": {
+        "common_name": "Bandarra",
+        "scientific_name": "Parkia paraensis"
+    },
+    "cu51": {
+        "common_name": "Caucho RO",
+        "scientific_name": null
+    },
+    "pm52": {
+        "common_name": "Fava arara",
+        "scientific_name": "Parkia multijuga"
+    },
+    "cm53": {
+        "common_name": "Jequitiba carvão",
+        "scientific_name": "Cariniana micrantha"
+    },
+    "bh54": {
+        "common_name": "Mirindiba",
+        "scientific_name": "Buchenavia huberi"
+    },
+    "cg56": {
+        "common_name": "Pequirana",
+        "scientific_name": "Caryocar glabrum"
+    },
+    "tm57": {
+        "common_name": "Taxi preto",
+        "scientific_name": "Tachigali myrmecophila"
+    },
+    "sm58": {
+        "common_name": "Caja",
+        "scientific_name": "Spondias mombin L"
+    },
+    "lp60": {
+        "common_name": "Pau jacaré",
+        "scientific_name": "Laetia procera (Poepp.) Eichler"
+    },
+    "sm61": {
+        "common_name": "Mogno",
+        "scientific_name": "Swetenia macrophylla King."
+    },
+    "ms62": {
+        "common_name": "Banana",
+        "scientific_name": "Musa sp."
+    },
+    "vf63": {
+        "common_name": "Quaruba",
+        "scientific_name": "Vochysia ferruginea Mart."
+    },
+    "hb64": {
+        "common_name": "Seringueira",
+        "scientific_name": "Hevea brasiliensis"
+    },
+    "cn65": {
+        "common_name": "Coqueiro",
+        "scientific_name": "Cocos nucifera L."
+    },
+    "tg66": {
+        "common_name": "Cupuaçu",
+        "scientific_name": "Theobroma grandiflorum"
+    },
+    "bg67": {
+        "common_name": "Pupunha",
+        "scientific_name": "Bactris gasipaes (Kunth)"
+    },
+    "av68": {
+        "common_name": "Amarelão",
+        "scientific_name": "Aspidosperma vargasi"
+    },
+    "ac69": {
+        "common_name": "Canelão",
+        "scientific_name": "Aniba canelilla"
+    },
+    "ob70": {
+        "common_name": "Bacaba",
+        "scientific_name": "Oenocarpus bacaba"
+    },
+    "cp72": {
+        "common_name": "Embaúba branca",
+        "scientific_name": "Cecropia pachystachya"
+    },
+    "ev73": {
+        "common_name": "Louro abacate",
+        "scientific_name": "Endlicheria verticillata"
+    },
+    "pd74": {
+        "common_name": "Palmeira desconhecida",
+        "scientific_name": null
+    }
+},     
+
+"categories": {
+    "Açaí": [
+        {"specie": "ep01", "class_id": 0},
+        {"specie": "ep35", "class_id": 1}
+    ],
+    "Castanheira": [
+        {"specie": "be03", "class_id": 0}
+    ],
+    "Palmeiras": [
+        {"specie": "ep01", "class_id": 0},
+        {"specie": "se04", "class_id": 1},
+        {"specie": "mf09", "class_id": 2},
+        {"specie": "ab10", "class_id": 3},
+        {"specie": "ap12", "class_id": 4},
+        {"specie": "au13", "class_id": 5},
+        {"specie": "aa14", "class_id": 6},
+        {"specie": "am16", "class_id": 7},
+        {"specie": "ob19", "class_id": 8},
+        {"specie": "ep35", "class_id": 9},
+        {"specie": "at34", "class_id": 10}
+    ],
+    "PFNMs": [
+        {"specie": "al30", "class_id": 0},
+        {"specie": "ba24", "class_id": 1},
+        {"specie": "be03", "class_id": 2},
+        {"specie": "bj11", "class_id": 3},
+        {"specie": "cm29", "class_id": 4},
+        {"specie": "cm40", "class_id": 5},
+        {"specie": "co06", "class_id": 6},
+        {"specie": "cp15", "class_id": 7},
+        {"specie": "cs21", "class_id": 8},
+        {"specie": "cs36", "class_id": 9},
+        {"specie": "cu05", "class_id": 10},
+        {"specie": "do22", "class_id": 11},
+        {"specie": "es00", "class_id": 12},
+        {"specie": "ev73", "class_id": 13},
+        {"specie": "ho45", "class_id": 14},
+        {"specie": "hy47", "class_id": 15},
+        {"specie": "mh28", "class_id": 16},
+        {"specie": "mv25", "class_id": 17},
+        {"specie": "pg25", "class_id": 18},
+        {"specie": "sa08", "class_id": 19},
+        {"specie": "sa31", "class_id": 20},
+        {"specie": "ss44", "class_id": 21},
+        {"specie": "tm57", "class_id": 22}
+    ],
+    "PFMS": [
+        {"specie": "sg37", "class_id": 0},
+        {"specie": "ap39", "class_id": 1},
+        {"specie": "cu05", "class_id": 2},
+        {"specie": "co06", "class_id": 3},
+        {"specie": "do22", "class_id": 4},
+        {"specie": "ba24", "class_id": 5},
+        {"specie": "mv25", "class_id": 6},
+        {"specie": "hc27", "class_id": 7},
+        {"specie": "mh29", "class_id": 8},
+        {"specie": "al30", "class_id": 9},
+        {"specie": "ec33", "class_id": 10},
+        {"specie": "cm40", "class_id": 11},
+        {"specie": "hc41", "class_id": 12},
+        {"specie": "sp42", "class_id": 13},
+        {"specie": "de43", "class_id": 14}
+    ],
+    "Ecológico": [
+        {"specie": "am02", "class_id": 0},
+        {"specie": "fe17", "class_id": 1},
+        {"specie": "cs18", "class_id": 2}
+    ],
+    "Ambiental": [
+        {"specie": "tr23", "class_id": 0},
+        {"specie": "cl07", "class_id": 1},
+        {"specie": "ex29", "class_id": 2}
+    ]
+  }
+}

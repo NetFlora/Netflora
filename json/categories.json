@@ -1,0 +1,76 @@
+{
+    "categories": {
+      "Açaí": [
+        {"species_id": "ep01", "common_name": "Açaí solteiro", "scientific_name": "Euterpe precatoria Mart."},
+        {"species_id": "ep35", "common_name": "Açaí solteiro produtivo", "scientific_name": null}
+      ],
+      "Castanheira": [
+        {"species_id": "be03", "common_name": "Castanheira", "scientific_name": "Bertholletia excelsa Bonpl."}
+      ],
+      "Palmeiras": [
+        {"species_id": "se04", "common_name": "Paxiúba", "scientific_name": "Socratea exorrhiza (Mart.) H. Wendl."},
+        {"species_id": "mf09", "common_name": "Burití", "scientific_name": "Mauritia flexuosa L.f."},
+        {"species_id": "ab10", "common_name": "Jací", "scientific_name": "Attalea butyracea (Mutis ex Lf) Wess.Boer"},
+        {"species_id": "ap12", "common_name": "Ouricuri", "scientific_name": "Attalea phalerata Mart. ex Spreng."},
+        {"species_id": "au13", "common_name": "Murumuru", "scientific_name": "Astrocaryum ulei Burret"},
+        {"species_id": "aa14", "common_name": "Tucumã", "scientific_name": "Astrocaryum aculeatum G.Mey."},
+        {"species_id": "am16", "common_name": "Inajá", "scientific_name": "Attalea maripa (Aubl.) Mart."},
+        {"species_id": "ob19", "common_name": "Patauá", "scientific_name": "Oenocarpus bataua Mart."},
+        {"species_id": "ep35", "common_name": "Açaí solteiro produtivo", "scientific_name": null},
+        {"species_id": "at34", "common_name": "Cocão", "scientific_name": "Attalea tessmannii Burret"}
+      ],
+      "PFNMs": [
+        {"species_id": "al30", "common_name": "Garapeira", "scientific_name": "Apuleia leiocarpa (Vogel) JFMacbr."},
+        {"species_id": "ba24", "common_name": "Manite", "scientific_name": "Brosimum alicastrum Sw."},
+        {"species_id": "be03", "common_name": "Castanheira", "scientific_name": "Bertholletia excelsa Bonpl."},
+        {"species_id": "bj11", "common_name": "Bajão", "scientific_name": "Parkia paraensis Ducke"},
+        {"species_id": "cm29", "common_name": "Copaíba", "scientific_name": "Copaifera multijuga Hayne"},
+        {"species_id": "cm40", "common_name": "Tauari", "scientific_name": "Couratari macrosperma A.C.Sm."},
+        {"species_id": "co06", "common_name": "Cedro", "scientific_name": "Cedrela odorata L."},
+        {"species_id": "cp15", "common_name": "Samaúma", "scientific_name": "Ceiba pentandra (L.) Gaertn."},
+        {"species_id": "cs21", "common_name": "Samauma preta", "scientific_name": "Ceiba samauma (Mart. & Zucc.) K.Schum."},
+        {"species_id": "cs36", "common_name": "Samaúma barriguda", "scientific_name": "Ceiba speciosa (A.St.-Hil.) Ravenna"},
+        {"species_id": "cu05", "common_name": "Caucho", "scientific_name": "Castilla Ulei Warb."},
+        {"species_id": "do22", "common_name": "Cumaru ferro", "scientific_name": "Dipteryx odorata (Aubl.) Willd."},
+        {"species_id": "es00", "common_name": "Orelha de macaco", "scientific_name": "Enterolobium schomburqki"},
+        {"species_id": "ev73", "common_name": "Louro abacate", "scientific_name": "Endlicheria verticillata"},
+        {"species_id": "ho45", "common_name": "Jutai", "scientific_name": "Hymenaea oblongifolia"},
+        {"species_id": "hy47", "common_name": "Angelin", "scientific_name": null},
+        {"species_id": "mh28", "common_name": "Maçaranduba", "scientific_name": "Manilkara huberi (Ducke) Standl."},
+        {"species_id": "mv25", "common_name": "Abiu rosa", "scientific_name": "Micropholis venulosa (Mart. & Eichler ex Miq.) Pierre"},
+        {"species_id": "pg25", "common_name": "Carapanauba", "scientific_name": "Peltogyne sp."},
+        {"species_id": "sa08", "common_name": "Pinho cuiabano", "scientific_name": "Schizolobium amazonicum Ducke"},
+        {"species_id": "sa31", "common_name": "Angico", "scientific_name": "Parkia nitida Miq."},
+        {"species_id": "ss44", "common_name": "Taxi-vermelho AC", "scientific_name": null},
+        {"species_id": "tm57", "common_name": "Taxi preto", "scientific_name": "Tachigali myrmecophila"}
+      ],
+      "PFMS": [
+        {"species_id": "sg37", "common_name": "Baginha", "scientific_name": "Stryphnodendron guianense (Aubl.) Benth."},
+        {"species_id": "ap39", "common_name": "Espinheiro preto", "scientific_name": "Acacia polyphylla DC."},
+        {"species_id": "cu05", "common_name": "Caucho RO", "scientific_name": null},
+        {"species_id": "co06", "common_name": "Cedro", "scientific_name": "Cedrela odorata L."},
+        {"species_id": "do22", "common_name": "Cumaru ferro", "scientific_name": "Dipteryx odorata (Aubl.) Willd."},
+        {"species_id": "ba24", "common_name": "Manite", "scientific_name": "Brosimum alicastrum Sw."},
+        {"species_id": "mv25", "common_name": "Abiu rosa", "scientific_name": "Micropholis venulosa (Mart. & Eichler ex Miq.) Pierre"},
+        {"species_id": "hc27", "common_name": "Assacú", "scientific_name": "Hura crepitans L."},
+        {"species_id": "mh29", "common_name": "Maçaranduba", "scientific_name": "Manilkara huberi (Ducke) Standl."},
+        {"species_id": "al30", "common_name": "Garapeira", "scientific_name": "Apuleia leiocarpa (Vogel) JFMacbr."},
+        {"species_id": "ec33", "common_name": "Castanharana vermelha", "scientific_name": "Eschweilera coriacea (DC.) SAMori"},
+        {"species_id": "cm40", "common_name": "Tauari", "scientific_name": "Couratari macrosperma A.C.Sm."},
+        {"species_id": "hc41", "common_name": "Jatobá", "scientific_name": "Hymenaea courbaril L."},
+        {"species_id": "sp42", "common_name": "Taxi-branco RO", "scientific_name": "Sclerolobium paniculatum Vogel"},
+        {"species_id": "de43", "common_name": "Faveira-ferro RO", "scientific_name": "Dinizia excelsa Ducke"}
+      ],
+      "Ecológico": [
+        {"species_id": "am02", "common_name": "Árvore morta", "scientific_name": null},
+        {"species_id": "fe17", "common_name": "Fenologia", "scientific_name": null},
+        {"species_id": "cs18", "common_name": "Cecrópia", "scientific_name": null}
+      ],
+      "Ambiental": [
+        {"species_id": "tr23", "common_name": "Toras", "scientific_name": null},
+        {"species_id": "cl07", "common_name": "Clareira", "scientific_name": null},
+        {"species_id": "ex29", "common_name": "Exploração", "scientific_name": "Madeira serrada"}
+      ]
+    }
+  }
+  

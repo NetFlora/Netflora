@@ -1,0 +1,428 @@
+[
+    {
+        "species_id": "es00",
+        "common_name": "Orelha de macaco",
+        "scientific_name": "Enterolobium schomburqki",
+        "category": null
+    },
+    {
+        "species_id": "ep01",
+        "common_name": "Açaí solteiro",
+        "scientific_name": "Euterpe precatoria Mart.",
+        "category": "Açaí"
+    },
+    {
+        "species_id": "am02",
+        "common_name": "Árvore morta",
+        "scientific_name": null,
+        "category": "Ecológico"
+    },
+    {
+        "species_id": "be03",
+        "common_name": "Castanheira",
+        "scientific_name": "Bertholletia excelsa Bonpl.",
+        "category": "Castanheira"
+    },
+    {
+        "species_id": "se04",
+        "common_name": "Paxiúba",
+        "scientific_name": "Socratea exorrhiza (Mart.) H. Wendl.",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "cu05",
+        "common_name": "Caucho",
+        "scientific_name": "Castilla Ulei Warb.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "co06",
+        "common_name": "Cedro",
+        "scientific_name": "Cedrela odorata L.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "cl07",
+        "common_name": "Clareira",
+        "scientific_name": null,
+        "category": "Ambiental"
+    },
+    {
+        "species_id": "sa08",
+        "common_name": "Pinho cuiabano",
+        "scientific_name": "Schizolobium amazonicum Ducke",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "mf09",
+        "common_name": "Burití",
+        "scientific_name": "Mauritia flexuosa L.f.",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "ab10",
+        "common_name": "Jací",
+        "scientific_name": "Attalea butyracea (Mutis ex Lf) Wess.Boer",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "bj11",
+        "common_name": "Bajão",
+        "scientific_name": "Parkia paraensis Ducke",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "ap12",
+        "common_name": "Ouricuri",
+        "scientific_name": "Attalea phalerata Mart. ex Spreng.",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "au13",
+        "common_name": "Murumuru",
+        "scientific_name": "Astrocaryum ulei Burret",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "aa14",
+        "common_name": "Tucumã",
+        "scientific_name": "Astrocaryum aculeatum G.Mey.",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "cp15",
+        "common_name": "Samaúma",
+        "scientific_name": "Ceiba pentandra (L.) Gaertn.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "am16",
+        "common_name": "Inajá",
+        "scientific_name": "Attalea maripa (Aubl.) Mart.",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "fe17",
+        "common_name": "Fenologia",
+        "scientific_name": null,
+        "category": "Ecológico"
+    },
+    {
+        "species_id": "cs18",
+        "common_name": "Cecrópia",
+        "scientific_name": null,
+        "category": "Ecológico"
+    },
+    {
+        "species_id": "ob19",
+        "common_name": "Patauá",
+        "scientific_name": "Oenocarpus bataua Mart.",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "ex20",
+        "common_name": "Exploração",
+        "scientific_name": "Madeira serrada",
+        "category": "Ambiental"
+    },
+    {
+        "species_id": "cs20",
+        "common_name": "Samauma preta",
+        "scientific_name": "Ceiba samauma (Mart. & Zucc.) K.Schum.",
+        "category": null
+    },
+    {
+        "species_id": "do22",
+        "common_name": "Cumaru ferro",
+        "scientific_name": "Dipteryx odorata (Aubl.) Willd.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "tr23",
+        "common_name": "Toras",
+        "scientific_name": null,
+        "category": "Ambiental"
+    },
+    {
+        "species_id": "ba24",
+        "common_name": "Manite",
+        "scientific_name": "Brosimum alicastrum Sw.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "mv25",
+        "common_name": "Abiu rosa",
+        "scientific_name": "Micropholis venulosa (Mart. & Eichler ex Miq.) Pierre",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "fs26",
+        "common_name": "Ficus",
+        "scientific_name": "Ficus maxima Mill.",
+        "category": null
+    },
+    {
+        "species_id": "hc27",
+        "common_name": "Assacú",
+        "scientific_name": "Hura crepitans L.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "mh29",
+        "common_name": "Maçaranduba",
+        "scientific_name": "Manilkara huberi (Ducke) Standl.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "cm29",
+        "common_name": "Copaíba",
+        "scientific_name": "Copaifera multijuga Hayne",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "al30",
+        "common_name": "Garapeira",
+        "scientific_name": "Apuleia leiocarpa (Vogel) JFMacbr.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "sa31",
+        "common_name": "Angico",
+        "scientific_name": "Parkia nitida Miq.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "ec33",
+        "common_name": "Castanharana vermelha",
+        "scientific_name": "Eschweilera coriacea (DC.) SAMori",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "at34",
+        "common_name": "Cocão",
+        "scientific_name": "Attalea tessmannii Burret",
+        "category": "Palmeiras"
+    },
+    {
+        "species_id": "ep35",
+        "common_name": "Açaí solteiro produtivo",
+        "scientific_name": null,
+        "category": "Açaí"
+    },
+    {
+        "species_id": "cs36",
+        "common_name": "Samaúma barriguda",
+        "scientific_name": "Ceiba speciosa (A.St.-Hil.) Ravenna",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "sg37",
+        "common_name": "Baginha",
+        "scientific_name": "Stryphnodendron guianense (Aubl.) Benth.",
+        "category": "PFMS"
+    },
+    {
+        "species_id": "fm38",
+        "common_name": "Caxinguba",
+        "scientific_name": "Ficus maxima Mill.",
+        "category": null
+    },
+    {
+        "species_id": "ap39",
+        "common_name": "Espinheiro preto",
+        "scientific_name": "Acacia polyphylla DC.",
+        "category": "PFMS"
+    },
+    {
+        "species_id": "cm40",
+        "common_name": "Tauari",
+        "scientific_name": "Couratari macrosperma A.C.Sm.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "hc41",
+        "common_name": "Jatobá",
+        "scientific_name": "Hymenaea courbaril L.",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "sp42",
+        "common_name": "Taxi-branco RO",
+        "scientific_name": "Sclerolobium paniculatum Vogel",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "de43",
+        "common_name": "Faveira-ferro RO",
+        "scientific_name": "Dinizia excelsa Ducke",
+        "category": "PFMS"
+    },
+    {
+        "species_id": "ss44",
+        "common_name": "Taxi-vermelho AC",
+        "scientific_name": null,
+        "category": "Ambiental"
+    },
+    {
+        "species_id": "hp45",
+        "common_name": "Jutai",
+        "scientific_name": "Hymenaea oblongifolia",
+        "category": "PFMS"
+    },
+    {
+        "species_id": "op46",
+        "common_name": "Algoodoeiro",
+        "scientific_name": null,
+        "category": null
+    },
+    {
+        "species_id": "hy47",
+        "common_name": "Angelin",
+        "scientific_name": null,
+        "category": "Ambiental"
+    },
+    {
+        "species_id": "as48",
+        "common_name": "Babaçu",
+        "scientific_name": "Attalea speciosa",
+        "category": "PFMS"
+    },
+    {
+        "species_id": "oc49",
+        "common_name": "Bajão RO",
+        "scientific_name": "Ormosia coutinho",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "pp50",
+        "common_name": "Bandarra",
+        "scientific_name": "Parkia paraensis",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "cu51",
+        "common_name": "Caucho RO",
+        "scientific_name": null,
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "pm52",
+        "common_name": "Fava arara",
+        "scientific_name": "Parkia multijuga",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "cm53",
+        "common_name": "Jequitiba carvão",
+        "scientific_name": "Cariniana micrantha",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "bh54",
+        "common_name": "Mirindiba",
+        "scientific_name": "Buchenavia huberi",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "cg56",
+        "common_name": "Pequirana",
+        "scientific_name": "Caryocar glabrum",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "tm57",
+        "common_name": "Taxi preto",
+        "scientific_name": "Tachigali myrmecophila",
+        "category": "PFNMs"
+    },
+    {
+        "species_id": "sm58",
+        "common_name": "Caja",
+        "scientific_name": "Spondias mombin L",
+        "category": null
+    },
+    {
+        "species_id": "lp60",
+        "common_name": "Pau jacaré",
+        "scientific_name": "Laetia procera (Poepp.) Eichler",
+        "category": null
+    },
+    {
+        "species_id": "sm61",
+        "common_name": "Mogno",
+        "scientific_name": "Swetenia macrophylla King.",
+        "category": null
+    },
+    {
+        "species_id": "ms62",
+        "common_name": "Banana",
+        "scientific_name": "Musa sp.",
+        "category": null
+    },
+    {
+        "species_id": "vf63",
+        "common_name": "Quaruba",
+        "scientific_name": "Vochysia ferruginea Mart.",
+        "category": null
+    },
+    {
+        "species_id": "hb64",
+        "common_name": "Seringueira",
+        "scientific_name": "Hevea brasiliensis",
+        "category": null
+    },
+    {
+        "species_id": "cn65",
+        "common_name": "Coqueiro",
+        "scientific_name": "Cocos nucifera L.",
+        "category": null
+    },
+    {
+        "species_id": "tg66",
+        "common_name": "Cupuaçu",
+        "scientific_name": "Theobroma grandiflorum",
+        "category": null
+    },
+    {
+        "species_id": "bg67",
+        "common_name": "Pupunha",
+        "scientific_name": "Bactris gasipaes (Kunth)",
+        "category": null
+    },
+    {
+        "species_id": "av68",
+        "common_name": "Amarelão",
+        "scientific_name": "Aspidosperma vargasi",
+        "category": null
+    },
+    {
+        "species_id": "ac69",
+        "common_name": "Canelão",
+        "scientific_name": "Aniba canelilla",
+        "category": null
+    },
+    {
+        "species_id": "ob70",
+        "common_name": "Bacaba",
+        "scientific_name": "Oenocarpus bacaba",
+        "category": null
+    },
+    {
+        "species_id": "cp72",
+        "common_name": "Embaúba branca",
+        "scientific_name": "Cecropia pachystachya",
+        "category": null
+    },
+    {
+        "species_id": "ev73",
+        "common_name": "Louro abacate",
+        "scientific_name": "Endlicheria verticillata",
+        "category": null
+    },
+    {
+        "species_id": "pd74",
+        "common_name": "Palmeira desconhecida",
+        "scientific_name": null,
+        "category": null
+    }
+]
