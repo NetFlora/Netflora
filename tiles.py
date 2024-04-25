@@ -26,7 +26,7 @@ class tileGenerator:
              
         self.specs = {
             'Açaí': {'name': 'Acai', 'size': 1536, 'overlap': 128, 'link': 'https://github.com/NetFlora/Netflora/releases/download/Assets/ACAI_Embrapa00.pt'},
-            'Palmeiras': {'name': 'Palmeiras', 'size': 1536, 'overlap': 256,'link': 'https://github.com/NetFlora/Netflora/releases/download/Assets/PALMS_Embrapa00.pt'},
+            'Palmeiras': {'name': 'Palmeiras', 'size': 1536, 'overlap': 256,'link': 'https://github.com/NetFlora/Netflora/releases/download/Assets/PALMEIRAS_Embrapa00.pt'},
             'Castanheira': {'name': 'Castanheira', 'size': 2048, 'overlap': 1024, 'link': None},
             'PMFS': {'name': 'PMFS', 'size': 1536, 'overlap': 768, 'link': None},
             'PFNMs': {'name': 'PFNMs', 'size': 1536, 'overlap': 512, 'link': None},
