@@ -59,6 +59,7 @@ Karasinski, M. A., Santos, E. K. M. dos, Santos, C. A. N., &#38; Figueiredo, E. 
 	title = {NetFlora/{Netflora}: 0.1.0},
 	howpublished = {https://zenodo.org/records/11063716},
 }
+```
 
 ## Licença
 
