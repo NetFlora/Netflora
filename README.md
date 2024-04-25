@@ -44,6 +44,8 @@ https://www.embrapa.br/acre/tecnologias/netflora
 
 ## Citation
 
+[![DOI](https://zenodo.org/badge/791648585.svg)](https://zenodo.org/doi/10.5281/zenodo.11063715)
+
 ## License
 
 Distributed under the GPL 3.0 license. See [`LICENSE`](LICENSE.md) for more information.
