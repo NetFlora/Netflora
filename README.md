@@ -48,7 +48,6 @@ https://www.embrapa.br/acre/tecnologias/netflora
 Karasinski, M. A., Santos, E. K. M. dos, Santos, C. A. N., &#38; Figueiredo, E. O. (2024, April 25). NetFlora/Netflora: 0.1.0. Zenodo. https://zenodo.org/records/11063716
 
 ```
-
 @misc{Karasinski2024NetFlora,
 	author = {Karasinski, Mauro Alessandro and Santos, Erica Kerolaine Mendon{\c c}a dos and Santos, Caio Alexandre Nascimento and Figueiredo, Evandro Orfan{\' o}},
 	year = {2024},
@@ -56,8 +55,6 @@ Karasinski, M. A., Santos, E. K. M. dos, Santos, C. A. N., &#38; Figueiredo, E. 
 	title = {NetFlora/{Netflora}: 0.1.0},
 	howpublished = {https://zenodo.org/records/11063716},
 }
-
-
 ```
 
 
