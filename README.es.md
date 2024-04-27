@@ -44,7 +44,7 @@ https://www.embrapa.br/acre/tecnologias/netflora
 Distribuido bajo la licencia GPL 3.0. Consulte [LICENSE](LICENSE.md) para más información.
 
 ## Enlaces Útiles
-
+- [Descarga del ejemplo de ortofoto](https://drive.google.com/drive/folders/1OcRel7fJHALwm9ZAdU3rSlFwV_4iaZnp?usp=sharing)
 - [Curso EAD](https://www.embrapa.br/web/portal/acre/tecnologias/netflora/curso-ead)
 - [Preguntas Frecuentes (FAQ)](https://www.embrapa.br/web/portal/acre/tecnologias/netflora/perguntas-e-respostas)
 - [Embrapa Acre](https://www.embrapa.br/acre/)
