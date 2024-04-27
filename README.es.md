@@ -52,7 +52,8 @@ Distribuido bajo la licencia GPL 3.0. Consulte [LICENSE](LICENSE.md) para más i
 
 ## Agradecimientos
 
-<details><summary> <b>Expand</b> </summary>
- * [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
- * [https://github.com/WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
+<details><summary> <b>Expandir</b> </summary>
+ 
+* [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
+* [https://github.com/WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
  
