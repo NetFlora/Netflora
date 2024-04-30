@@ -1,7 +1,7 @@
 """
 
 File Name: tiles.py
-Origin: Netflora (https://github.com/WongKinYiu/yolov7)
+Origin: Netflora (hhttps://github.com/NetFlora/Netflora)
 
 """
 
