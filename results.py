@@ -1,7 +1,7 @@
 """
 
 File Name: results.py
-Origin: Netflora (https://github.com/WongKinYiu/yolov7)
+Origin: Netflora (https://github.com/NetFlora/Netflora)
 
 """
 
