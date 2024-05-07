@@ -121,11 +121,11 @@ def credentials():
 
     def update_terms_text(lang):
         if lang == 'en':
-            terms_text.value = '<p>Please read the <a href="https://www.embrapa.br/web/portal/acre/netflora/perguntas-e-respostas/termo-de-uso/" target="_blank">term of use</a> carefully before submitting your data. By checking the box below, you agree to the terms of use.</p>'
+            terms_text.value = '<p>Please read the <a href="https://www.embrapa.br/web/portal/acre/tecnologias/netflora/perguntas-e-respostas/termo-de-uso/" target="_blank">term of use</a> carefully before submitting your data. By checking the box below, you agree to the terms of use.</p>'
         elif lang == 'es':
-            terms_text.value = '<p>Por favor, lea cuidadosamente el <a href="https://www.embrapa.br/web/portal/acre/netflora/perguntas-e-respostas/termo-de-uso/" target="_blank">término de uso</a> antes de enviar sus datos. Al marcar la casilla a continuación, usted acepta el término de uso.</p>'
+            terms_text.value = '<p>Por favor, lea cuidadosamente el <a href="https://www.embrapa.br/web/portal/acre/tecnologias/netflora/perguntas-e-respostas/termo-de-uso/" target="_blank">término de uso</a> antes de enviar sus datos. Al marcar la casilla a continuación, usted acepta el término de uso.</p>'
         else:  # Default to Portuguese
-            terms_text.value = '<p>Por favor, leia cuidadosamente o <a href="https://www.embrapa.br/web/portal/acre/netflora/perguntas-e-respostas/termo-de-uso/" target="_blank">termo de uso</a> antes de enviar seus dados. Ao marcar a caixa abaixo, você concorda com o termo de uso.</p>'
+            terms_text.value = '<p>Por favor, leia cuidadosamente o <a href="https://www.embrapa.br/web/portal/acre/tecnologias/netflora/perguntas-e-respostas/termo-de-uso/" target="_blank">termo de uso</a> antes de enviar seus dados. Ao marcar a caixa abaixo, você concorda com o termo de uso.</p>'
 
     translate_dropdown.observe(update_translate, names='value')
     update_translate()  
