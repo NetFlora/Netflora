@@ -8,9 +8,10 @@ Origin: Netflora (https://github.com/NetFlora/Netflora)
 
 from ipywidgets import Button, Text, Dropdown, Output, VBox, HTML, Checkbox
 from IPython.display import display, clear_output
+from google.colab import drive
 import requests
 import re
-from google.colab import drive
+import json
 
 def format_cep(cep):
     if len(cep) == 8 and "-" not in cep:
@@ -184,6 +185,13 @@ def credentials():
             }
             url = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSeiyE0r9ddUEMWVSbaRNGzoHhjRIp4DQH5branuxqO1eHg2Ag/formResponse'
             response = requests.post(url, data=form_data)
+
+            response_data = {'status_code': response.status_code}        
+            with open('json/response_status.json', 'w') as file:
+                json.dump(response_data, file) 
+              
+
+
             if response.status_code != 200:
                 display(HTML('<span style="color: red;">Falha ao enviar o formulário. Status Code: ' + str(response.status_code) + '</span>'))
 
