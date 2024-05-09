@@ -9,6 +9,7 @@ import ipywidgets as widgets
 from IPython.display import display, clear_output, HTML
 import rasterio
 from rasterio.windows import Window
+from utils.credentials import credentials
 from PIL import Image
 import numpy as np
 import pandas as pd
@@ -20,10 +21,12 @@ import csv
 import json
 
 
-class tileGenerator:
+
+class TileGenerator:
     def __init__(self):
-        self.crs = None   
-             
+        self.verified = False
+        self.attempted_verification = False
+        self.crs = None
         self.specs = {
             'Açaí': {'name': 'Acai', 'size': 1536, 'overlap': 128, 'link': 'https://github.com/NetFlora/Netflora/releases/download/Assets/ACAI_Embrapa00.pt'},
             'Palmeiras': {'name': 'Palmeiras', 'size': 1536, 'overlap': 256,'link': 'https://github.com/NetFlora/Netflora/releases/download/Assets/PALMEIRAS_Embrapa00.pt'},
@@ -33,6 +36,38 @@ class tileGenerator:
             'Ecológico': {'name': 'Ecologico', 'size': 3000, 'overlap': 0, 'link': None},
         }
         self.setup_ui()
+        self.verify()
+
+    def verify(self):
+        if self.attempted_verification:
+            return self.verified
+        self.attempted_verification = True
+
+        try:
+            with open('json/response_status.json', 'r', encoding='utf-8') as file:
+                variables = json.load(file)
+                if variables['status_code'] == 200:
+                    self.verified = True
+                
+        except FileNotFoundError:
+            pass
+        except json.JSONDecodeError as e:
+            pass
+        if not self.verified:
+            print("Initiating credentialing procedure...")
+            if credentials(): 
+                self.verified = True
+                print("Por favor, preencha os dados e rode a cécula novamente")
+                
+        if self.verified:
+            self.enable_ui()
+
+    def enable_ui(self):
+        """Enable UI elements after successful verification."""
+        self.image_path_text.disabled = False
+        self.dropdown.disabled = False
+        self.button.disabled = False
+
 
     def download_model_weights(self, url, output_path):
         if url is not None:
@@ -129,16 +164,17 @@ class tileGenerator:
             value='',
             placeholder='Insira o caminho da ortofoto aqui',
             description='Ortofoto:',
-            disabled=False
+            disabled=True
         )
 
         self.dropdown = widgets.Dropdown(
             options=['Selecione'] + list(self.specs.keys()),
             value='Selecione',
             description='Algoritmo:',
+            disabled=True
         )
 
-        self.button = widgets.Button(description="Gerar Tiles")
+        self.button = widgets.Button(description="Gerar Tiles", disabled=True)
         self.output = widgets.Output()
 
         self.button.on_click(self.on_button_clicked)
@@ -195,5 +231,6 @@ class tileGenerator:
                 }
 
                 with open('processing/variable.json', 'w') as f:
-                    json.dump(variables, f, indent=4)
 
+                    json.dump(variables, f, indent=4)
+ 
