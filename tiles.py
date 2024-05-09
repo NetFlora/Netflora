@@ -54,10 +54,11 @@ class TileGenerator:
         except json.JSONDecodeError as e:
             pass
         if not self.verified:
-            print("Initiating credentialing procedure...")
+            print("Por gentileza, aceite o Termo de Uso..")
+            print("Por favor, preencha os dados e rode essa cécula novamente!")
             if credentials(): 
                 self.verified = True
-                print("Por favor, preencha os dados e rode a cécula novamente")
+                
                 
         if self.verified:
             self.enable_ui()
