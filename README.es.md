@@ -1,4 +1,4 @@
-# **NetFlora**
+# **Netflora**
 
 <a href="https://colab.research.google.com/gist/karasinski-mauro/aa12600b2edc9431adc2191be834c354/netflora.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Abrir en Colab"></a>
 
@@ -46,7 +46,7 @@ Distribuido bajo la licencia GPL 3.0. Consulte [LICENSE](LICENSE.md) para más i
 ## Enlaces Útiles
 - [Descarga del ejemplo de ortofoto](https://drive.google.com/drive/folders/1OcRel7fJHALwm9ZAdU3rSlFwV_4iaZnp?usp=sharing)
 - [Curso EAD](https://ava.sede.embrapa.br/course/view.php?id=470)
-- [Preguntas Frecuentes (FAQ)](https://www.embrapa.br/web/portal/acre/netflora/perguntas-e-respostas)
+- [Preguntas Frecuentes (FAQ)](https://www.embrapa.br/web/portal/acre/tecnologias/netflora/perguntas-e-respostas)
 - [Embrapa Acre](https://www.embrapa.br/acre/)
 - [Fondo JBS por la Amazonía](https://fundojbsamazonia.org/)
 
