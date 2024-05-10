@@ -54,8 +54,8 @@ class TileGenerator:
         except json.JSONDecodeError as e:
             pass
         if not self.verified:
-            print("Por gentileza, aceite o Termo de Uso..")
-            print("Por favor, preencha os dados e rode essa cécula novamente!")
+            display(HTML('<span style="color: red;">Por gentileza, aceite o Termo de Uso!</span>'))
+            display(HTML('<span style="color: orange;">Por favor, preencha os dados e rode essa cécula novamente!</span>'))
             if credentials(): 
                 self.verified = True
                 
