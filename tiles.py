@@ -32,7 +32,7 @@ class TileGenerator:
             'Palmeiras': {'name': 'Palmeiras', 'size': 1536, 'overlap': 256,'link': 'https://github.com/NetFlora/Netflora/releases/download/Assets/PALMEIRAS_Embrapa00.pt'},
             'Castanheira': {'name': 'Castanheira', 'size': 2048, 'overlap': 1024, 'link': None},
             'PMFS': {'name': 'PMFS', 'size': 1536, 'overlap': 768, 'link': None},
-            'PFNMs': {'name': 'PFNMs', 'size': 1536, 'overlap': 512, 'link': None},
+            'PFNMs': {'name': 'PFNMs', 'size': 1536, 'overlap': 512, 'link': 'https://github.com/NetFlora/Netflora/releases/download/Assets/NM_Embrapa00.pt'},
             'Ecológico': {'name': 'Ecologico', 'size': 3000, 'overlap': 0, 'link': None},
         }
         self.setup_ui()
