@@ -115,7 +115,12 @@ def filter_rectangular_bounding_boxes(gdf, min_aspect_ratio, max_aspect_ratio):
 
     gdf_filtered = gdf.loc[rectangular_indices].copy()
     return gdf_filtered
-
+        
+def calculate_width_height(df):
+    df['width_m'] = (df['bb_xmax'] - df['bb_xmin'])
+    df['height_m'] = (df['bb_ymax'] - df['bb_ymin'])
+    return df
+        
 def plot_class_distribution(gdf_nms_final, output_dir, algorithm):
     colors = plt.cm.tab20(np.linspace(0, 1, len(gdf_nms_final['name'].unique())))
     class_counts = gdf_nms_final['name'].value_counts().sort_index()
@@ -233,6 +238,8 @@ def main():
         df['num_tiles'] = len(arquivos_txt)
         df = df[df['confidence'] >= confidence_threshold]
 
+        df = calculate_width_height(df)
+            
         geometry = [box(x1, y1, x2, y2) for x1, y1, x2, y2 in zip(df['bb_xmin'], df['bb_ymin'], df['bb_xmax'], df['bb_ymax'])]
         gdf = gpd.GeoDataFrame(df, geometry=geometry, crs=crs)
 
@@ -266,7 +273,7 @@ def main():
     )
 
 
-    gdf_nms_final = gdf_nms[['filename', 'class_id', 'name', 'sci_name', 'confidence', 'geometry']].copy()
+    gdf_nms_final = gdf_nms[['filename', 'class_id', 'name', 'sci_name', 'confidence','width_m', 'height_m',  'geometry']].copy()
 
 
     gdf_nms_final.to_file(f'{output_shapefile_directory}/resultados_{algorithm}.shp')
