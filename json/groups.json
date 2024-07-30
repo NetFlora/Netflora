@@ -37,7 +37,7 @@
         "common_name": "Pinho cuiabano",
         "scientific_name": "Schizolobium amazonicum Ducke"
     },
-    "sa08f": {
+    "sa31": {
         "common_name": "Pinho cuiabano Florado",
         "scientific_name": "Schizolobium amazonicum Ducke"
     },
@@ -130,7 +130,7 @@
         "common_name": "Garapeira",
         "scientific_name": "Apuleia leiocarpa (Vogel) JFMacbr."
     },
-    "sa31": {
+    "sa31f": {
         "common_name": "Angico",
         "scientific_name": "Parkia nitida Miq."
     },
@@ -334,7 +334,7 @@
         {"specie": "mv25", "class_id": 17},
         {"specie": "pg25", "class_id": 18},
         {"specie": "sa08", "class_id": 19},
-        {"specie": "sa31", "class_id": 20},
+        {"specie": "sa31f", "class_id": 20},
         {"specie": "ss44", "class_id": 21},
         {"specie": "tm57", "class_id": 22}
     ],
@@ -353,7 +353,7 @@
         {"specie": "mh29", "class_id": 11},
         {"specie": "cm29", "class_id": 12},
         {"specie": "al30", "class_id": 13},
-        {"specie": "sa08f", "class_id": 14},
+        {"specie": "sa31", "class_id": 14},
         {"specie": "cs36", "class_id": 15},
         {"specie": "cm40", "class_id": 16},
         {"specie": "ss44", "class_id": 17},
