@@ -361,7 +361,7 @@
         {"specie": "hy47", "class_id": 19},
         {"specie": "cu51", "class_id": 20},
         {"specie": "sp42", "class_id": 21},
-        {"specie": "ev73", "class_id": 22},
+        {"specie": "ev73", "class_id": 22}
     ],
     "Ecológico": [
         {"specie": "am02", "class_id": 0},
