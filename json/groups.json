@@ -37,6 +37,11 @@
         "common_name": "Pinho cuiabano",
         "scientific_name": "Schizolobium amazonicum Ducke"
     },
+    "sa08f": {
+        "common_name": "Pinho cuiabano Florado",
+        "scientific_name": "Schizolobium amazonicum Ducke"
+    },
+        
     "mf09": {
         "common_name": "Burití",
         "scientific_name": "Mauritia flexuosa L.f."
@@ -333,22 +338,30 @@
         {"specie": "ss44", "class_id": 21},
         {"specie": "tm57", "class_id": 22}
     ],
-    "PFMS": [
-        {"specie": "sg37", "class_id": 0},
-        {"specie": "ap39", "class_id": 1},
+    "PMFS": [
+        {"specie": "es00", "class_id": 0},
+        {"specie": "be03", "class_id": 1},
         {"specie": "cu05", "class_id": 2},
         {"specie": "co06", "class_id": 3},
-        {"specie": "do22", "class_id": 4},
-        {"specie": "ba24", "class_id": 5},
-        {"specie": "mv25", "class_id": 6},
-        {"specie": "hc27", "class_id": 7},
-        {"specie": "mh29", "class_id": 8},
-        {"specie": "al30", "class_id": 9},
-        {"specie": "ec33", "class_id": 10},
-        {"specie": "cm40", "class_id": 11},
-        {"specie": "hc41", "class_id": 12},
-        {"specie": "sp42", "class_id": 13},
-        {"specie": "de43", "class_id": 14}
+        {"specie": "bj11", "class_id": 4},
+        {"specie": "sa08", "class_id": 5},
+        {"specie": "cp15", "class_id": 6},
+        {"specie": "cs20", "class_id": 7},
+        {"specie": "do22", "class_id": 8},
+        {"specie": "ba24", "class_id": 9},
+        {"specie": "mv25", "class_id": 10},
+        {"specie": "mh29", "class_id": 11},
+        {"specie": "cm29", "class_id": 12},
+        {"specie": "al30", "class_id": 13},
+        {"specie": "sa08f", "class_id": 14},
+        {"specie": "cs36", "class_id": 15},
+        {"specie": "cm40", "class_id": 16},
+        {"specie": "ss44", "class_id": 17},
+        {"specie": "hp45", "class_id": 18},
+        {"specie": "hy47", "class_id": 19},
+        {"specie": "cu51", "class_id": 20},
+        {"specie": "sp42", "class_id": 21},
+        {"specie": "ev73", "class_id": 22},
     ],
     "Ecológico": [
         {"specie": "am02", "class_id": 0},
