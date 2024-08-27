@@ -4,7 +4,7 @@
 
 <p align="justify">O Projeto Netflora envolve a aplicação de geotecnologias na automação florestal e no mapeamento dos estoques de carbono em áreas de floresta nativa na Amazônia Ocidental, é uma iniciativa desenvolvida pela Embrapa Acre com o apoio do Fundo JBS pela Amazônia.
 
-<p align="justify"> Aqui vamos tratar do componente “Inventário Florestal com uso de drones”. Drones e inteligência artificial são utilizados para automatizar etapas do inventário florestal na identificação de espécies estratégicas. Mais de 40 mil hectares de áreas de floresta já foram mapeados com o objetivo de coletar informações para compor o dataset do Netflora.
+<p align="justify"> Aqui vamos tratar do componente “Inventário Florestal com uso de drones”. Drones e inteligência artificial são utilizados para automatizar etapas do inventário florestal na identificação de espécies estratégicas. Mais de 50 mil hectares de áreas de floresta já foram mapeados com o objetivo de coletar informações para compor o dataset do Netflora.
 
 
 <div style="display: flex;">
