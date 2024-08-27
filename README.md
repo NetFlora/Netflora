@@ -6,7 +6,7 @@
 
 <p align="justify">The Netflora Project involves the application of geotechnologies in forest automation and carbon stock mapping in native forest areas in Western Amazonia. It is an initiative developed by Embrapa Acre with sponsorship from the JBS Fund for the Amazon.
 
-<p align="justify"> Here we will discuss the "Forest Inventory using drones" component. Drones and artificial intelligence are used to automate stages of the forest inventory in identifying strategic species. More than 40,000 hectares of forest areas have already been mapped with the goal of collecting information to compose the Netflora dataset.
+<p align="justify"> Here we will discuss the "Forest Inventory using drones" component. Drones and artificial intelligence are used to automate stages of the forest inventory in identifying strategic species. More than 50,000 hectares of forest areas have already been mapped with the goal of collecting information to compose the Netflora dataset.
 
 <div style="display: flex;">
 
