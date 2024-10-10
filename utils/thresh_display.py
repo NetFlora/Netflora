@@ -61,7 +61,7 @@ class ImageDisplayer:
         composite_img = Image.new('RGB', (size[0] * len(images), size[1]))
 
         for i, img_path in enumerate(images):
-            img = Image.open(img_path).resize(size, Image.ANTIALIAS)
+            img = Image.open(img_path).resize(size, Image.Resampling.LANCZOS)
             composite_img.paste(img, (i * size[0], 0))
 
         composite_save_path = os.path.join(self.save_dir, f'composite_threshold_{threshold:.2f}.jpg')
