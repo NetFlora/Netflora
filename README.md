@@ -1,9 +1,7 @@
 # **Netflora**
 
-<video width="640" height="480" controls>
-  <source src="https://youtu.be/AZN6f-FpGTI" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
+<img src="https://github.com/NetFlora/Netflora/blob/main/inference/images/detection.gif" alt="Demonstração do Projeto" width="600"/>
+
 
 
 **Read this in other languages**: [Português](README.pt.md), [Español](README.es.md).
