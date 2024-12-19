@@ -1,6 +1,6 @@
 # **Netflora**
 
-<img src="https://github.com/NetFlora/Netflora/blob/main/inference/images/detection.gif" alt="Demonstração do Projeto" width="600"/>
+<img src="https://github.com/NetFlora/Netflora/blob/main/inference/images/detection.gif" alt="Demonstração do Projeto" width="1000"/>
 
 
 
