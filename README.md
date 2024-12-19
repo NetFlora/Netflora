@@ -1,5 +1,11 @@
 # **Netflora**
 
+<video width="640" height="480" controls>
+  <source src="https://youtu.be/AZN6f-FpGTI" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+
 **Read this in other languages**: [Português](README.pt.md), [Español](README.es.md).
 
 <a href="https://colab.research.google.com/drive/16nydPteUlpXo1tcIC0DWrQr05Z3m-npU?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
