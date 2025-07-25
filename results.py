@@ -260,16 +260,16 @@ def main():
 
     species_category = categories.get(algorithm, [])
 
-   class_id_to_specie = {item["class_id"]: item["specie"] for item in species_category}
+    class_id_to_specie = {item["class_id"]: item["specie"] for item in species_category}
 
-   gdf_nms['name'] = gdf_nms['class_id'].apply(
-     lambda x: species_dict.get(class_id_to_specie.get(int(x), ''), {'common_name': 'Desconhecido'})['common_name']
+    gdf_nms['name'] = gdf_nms['class_id'].apply(
+        lambda x: species_dict.get(class_id_to_specie.get(int(x), ''), {'common_name': 'Desconhecido'})['common_name']
     )
 
-
-   gdf_nms['sci_name'] = gdf_nms['class_id'].apply(
-      lambda x: species_dict.get(class_id_to_specie.get(int(x), ''), {'scientific_name': 'Desconhecido'})['scientific_name']
+    gdf_nms['sci_name'] = gdf_nms['class_id'].apply(
+        lambda x: species_dict.get(class_id_to_specie.get(int(x), ''), {'scientific_name': 'Desconhecido'})['scientific_name']
     )
+
 
 
     gdf_nms_final = gdf_nms[['filename', 'class_id', 'name', 'sci_name', 'confidence','width_m', 'height_m',  'geometry']].copy()
