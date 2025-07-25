@@ -226,7 +226,7 @@ class TileGenerator:
 
                 variables = {
                     'crs': str(self.crs),
-                    'algorithm': selected_spec['name'],
+                    'algorithm': self.dropdown.value,
                     'tile_size': selected_spec['size'],
                     'overlap': selected_spec['overlap']
                 }
