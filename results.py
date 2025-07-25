@@ -259,17 +259,16 @@ def main():
 
 
     species_category = categories.get(algorithm, [])
-    species_codes = [item["specie"] for item in species_category]
 
+   class_id_to_specie = {item["class_id"]: item["specie"] for item in species_category}
 
-    gdf_nms['name'] = gdf_nms['class_id'].apply(
-        lambda x: species_dict.get(species_codes[int(x)], {'common_name': 'Desconhecido'})['common_name'] 
-        if int(x) < len(species_codes) else 'Desconhecido'
+   gdf_nms['name'] = gdf_nms['class_id'].apply(
+     lambda x: species_dict.get(class_id_to_specie.get(int(x), ''), {'common_name': 'Desconhecido'})['common_name']
     )
 
-    gdf_nms['sci_name'] = gdf_nms['class_id'].apply(
-        lambda x: species_dict.get(species_codes[int(x)], {'scientific_name': 'Desconhecido'})['scientific_name'] 
-        if int(x) < len(species_codes) and species_dict.get(species_codes[int(x)]) else 'Desconhecido'
+
+   gdf_nms['sci_name'] = gdf_nms['class_id'].apply(
+      lambda x: species_dict.get(class_id_to_specie.get(int(x), ''), {'scientific_name': 'Desconhecido'})['scientific_name']
     )
 
 
