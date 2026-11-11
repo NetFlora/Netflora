@@ -34,8 +34,11 @@ def fetch_cep_data(cep):
     return False, "", "", "", "", ""
 
 def validar_email(email):
-    pattern = r"^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$"
-    return re.match(pattern, email) is not None
+    pattern = (
+        r"[A-Za-z0-9_+%-]+(?:\.[A-Za-z0-9_+%-]+)*"
+        r"@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+[A-Za-z]{2,}"
+    )
+    return re.fullmatch(pattern, email.strip()) is not None
 
 def credentials():
     email_input = Text(placeholder='Informe seu e-mail', description='E-mail:')
